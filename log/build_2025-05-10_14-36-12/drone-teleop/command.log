@@ -1,0 +1,6 @@
+Invoking command in '/home/el-system/teleop/build/drone-teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/el-system/teleop/src/drone-teleop -DCMAKE_INSTALL_PREFIX=/home/el-system/teleop/install/drone-teleop
+Invoked command in '/home/el-system/teleop/build/drone-teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/el-system/teleop/src/drone-teleop -DCMAKE_INSTALL_PREFIX=/home/el-system/teleop/install/drone-teleop
+Invoking command in '/home/el-system/teleop/build/drone-teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/el-system/teleop/build/drone-teleop -- -j12 -l12
+Invoked command in '/home/el-system/teleop/build/drone-teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/el-system/teleop/build/drone-teleop -- -j12 -l12
+Invoking command in '/home/el-system/teleop/build/drone-teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/el-system/teleop/build/drone-teleop
+Invoked command in '/home/el-system/teleop/build/drone-teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/el-system/teleop/build/drone-teleop

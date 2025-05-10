@@ -1,0 +1,10 @@
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/install/strip.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/install/local.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/edit_cache.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/test.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/install.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/list_install_components.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/rebuild_cache.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/control.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/drone-teleop_uninstall.dir
+/home/el-system/teleop/build/drone-teleop/CMakeFiles/uninstall.dir

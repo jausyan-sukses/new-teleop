@@ -1,0 +1,6 @@
+mavros:
+  ros__parameters:
+    fcu_url: "serial:///dev/ttyTHS1:921600"       # ganti sesuai portmu
+    gcs_url: "udp://@192.168.50.179:14550"        # IP komputer Mission Planner
+    target_system_id: 1
+    target_component_id: 1

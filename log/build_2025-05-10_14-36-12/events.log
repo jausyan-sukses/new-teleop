@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000456] (drone-teleop) JobQueued: {'identifier': 'drone-teleop', 'dependencies': OrderedDict()}
+[0.000815] (drone-teleop) JobStarted: {'identifier': 'drone-teleop'}
+[0.005708] (drone-teleop) JobProgress: {'identifier': 'drone-teleop', 'progress': 'cmake'}
+[0.005837] (drone-teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/el-system/teleop/src/drone-teleop', '-DCMAKE_INSTALL_PREFIX=/home/el-system/teleop/install/drone-teleop'], 'cwd': '/home/el-system/teleop/build/drone-teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/el-system/.gazebo/models:/home/el-system/ardupilot_gazebo/build/../models'), ('USER', 'el-system'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1694'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/teleop/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.14.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.14.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1595'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5279'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:40652'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/el-system/.nvm/versions/node/v22.14.0/bin:/usr/lib/ccache:/home/el-system/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/el-system/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1792,unix/el-tech:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', '1f11f00db0db404e9effefceef78d43b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf10300f-e528-4ae8-8761-217476702bd4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/teleop/build/drone-teleop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/usr/local/lib'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.045215] (drone-teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.080851] (drone-teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.083973] (drone-teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc\n'}
+[0.100099] (-) TimerEvent: {}
+[0.136143] (drone-teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc -- works\n'}
+[0.138114] (drone-teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.174613] (drone-teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.188977] (drone-teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.189266] (drone-teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.191037] (drone-teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++\n'}
+[0.200315] (-) TimerEvent: {}
+[0.257352] (drone-teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works\n'}
+[0.258740] (drone-teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300467] (-) TimerEvent: {}
+[0.312161] (drone-teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.319633] (drone-teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.319921] (drone-teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.321207] (drone-teleop) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.337772] (drone-teleop) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.338021] (drone-teleop) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400596] (-) TimerEvent: {}
+[0.460727] (drone-teleop) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.489398] (drone-teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.493413] (drone-teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500766] (-) TimerEvent: {}
+[0.544854] (drone-teleop) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.564656] (drone-teleop) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.600898] (-) TimerEvent: {}
+[0.614658] (drone-teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.651251] (drone-teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.652197] (drone-teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.652742] (drone-teleop) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.701068] (-) TimerEvent: {}
+[0.710514] (drone-teleop) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.710848] (drone-teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.769611] (drone-teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.769919] (drone-teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.799438] (drone-teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.799651] (drone-teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.801237] (-) TimerEvent: {}
+[0.835137] (drone-teleop) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.836076] (drone-teleop) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.901329] (-) TimerEvent: {}
+[0.936555] (drone-teleop) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.959510] (drone-teleop) StdoutLine: {'line': b'-- Found mavros_msgs: 2.4.0 (/opt/ros/foxy/share/mavros_msgs/cmake)\n'}
+[1.001434] (-) TimerEvent: {}
+[1.101742] (-) TimerEvent: {}
+[1.202089] (-) TimerEvent: {}
+[1.291978] (drone-teleop) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.302281] (-) TimerEvent: {}
+[1.338440] (drone-teleop) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.339285] (drone-teleop) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.339497] (drone-teleop) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.339594] (drone-teleop) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.339885] (drone-teleop) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.340018] (drone-teleop) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.340252] (drone-teleop) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.340871] (drone-teleop) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.341068] (drone-teleop) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.341265] (drone-teleop) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.342905] (drone-teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.349460] (drone-teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[1.352522] (drone-teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/el-system/teleop/build/drone-teleop\n'}
+[1.358081] (drone-teleop) CommandEnded: {'returncode': 0}
+[1.358937] (drone-teleop) JobProgress: {'identifier': 'drone-teleop', 'progress': 'build'}
+[1.361032] (drone-teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/el-system/teleop/build/drone-teleop', '--', '-j12', '-l12'], 'cwd': '/home/el-system/teleop/build/drone-teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/el-system/.gazebo/models:/home/el-system/ardupilot_gazebo/build/../models'), ('USER', 'el-system'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1694'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/teleop/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.14.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.14.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1595'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5279'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:40652'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/el-system/.nvm/versions/node/v22.14.0/bin:/usr/lib/ccache:/home/el-system/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/el-system/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1792,unix/el-tech:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', '1f11f00db0db404e9effefceef78d43b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf10300f-e528-4ae8-8761-217476702bd4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/teleop/build/drone-teleop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/usr/local/lib'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.387909] (drone-teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control\x1b[0m\n'}
+[1.402433] (-) TimerEvent: {}
+[1.410045] (drone-teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o\x1b[0m\n'}
+[1.502569] (-) TimerEvent: {}
+[1.602944] (-) TimerEvent: {}
+[1.703358] (-) TimerEvent: {}
+[1.803733] (-) TimerEvent: {}
+[1.904148] (-) TimerEvent: {}
+[2.004514] (-) TimerEvent: {}
+[2.104889] (-) TimerEvent: {}
+[2.205280] (-) TimerEvent: {}
+[2.305609] (-) TimerEvent: {}
+[2.405939] (-) TimerEvent: {}
+[2.506292] (-) TimerEvent: {}
+[2.606638] (-) TimerEvent: {}
+[2.707003] (-) TimerEvent: {}
+[2.807360] (-) TimerEvent: {}
+[2.907675] (-) TimerEvent: {}
+[3.007946] (-) TimerEvent: {}
+[3.108252] (-) TimerEvent: {}
+[3.208542] (-) TimerEvent: {}
+[3.308810] (-) TimerEvent: {}
+[3.409065] (-) TimerEvent: {}
+[3.509348] (-) TimerEvent: {}
+[3.609674] (-) TimerEvent: {}
+[3.709971] (-) TimerEvent: {}
+[3.810223] (-) TimerEvent: {}
+[3.910505] (-) TimerEvent: {}
+[4.010832] (-) TimerEvent: {}
+[4.111076] (-) TimerEvent: {}
+[4.211368] (-) TimerEvent: {}
+[4.311595] (-) TimerEvent: {}
+[4.411840] (-) TimerEvent: {}
+[4.512130] (-) TimerEvent: {}
+[4.612439] (-) TimerEvent: {}
+[4.712714] (-) TimerEvent: {}
+[4.813010] (-) TimerEvent: {}
+[4.913325] (-) TimerEvent: {}
+[5.013586] (-) TimerEvent: {}
+[5.113863] (-) TimerEvent: {}
+[5.214142] (-) TimerEvent: {}
+[5.314427] (-) TimerEvent: {}
+[5.414688] (-) TimerEvent: {}
+[5.514987] (-) TimerEvent: {}
+[5.615282] (-) TimerEvent: {}
+[5.642757] (drone-teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control\x1b[0m\n'}
+[5.715469] (-) TimerEvent: {}
+[5.815796] (-) TimerEvent: {}
+[5.841650] (drone-teleop) StdoutLine: {'line': b'[100%] Built target control\n'}
+[5.851850] (drone-teleop) CommandEnded: {'returncode': 0}
+[5.854417] (drone-teleop) JobProgress: {'identifier': 'drone-teleop', 'progress': 'install'}
+[5.865001] (drone-teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/el-system/teleop/build/drone-teleop'], 'cwd': '/home/el-system/teleop/build/drone-teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/el-system/.gazebo/models:/home/el-system/ardupilot_gazebo/build/../models'), ('USER', 'el-system'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1694'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/teleop/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.14.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.14.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1595'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5279'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:40652'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/el-system/.nvm/versions/node/v22.14.0/bin:/usr/lib/ccache:/home/el-system/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/el-system/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1792,unix/el-tech:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', '1f11f00db0db404e9effefceef78d43b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bf10300f-e528-4ae8-8761-217476702bd4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/teleop/build/drone-teleop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/usr/local/lib'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.871424] (drone-teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.871595] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/ament_index/resource_index/package_run_dependencies/drone-teleop\n'}
+[5.871826] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/ament_index/resource_index/parent_prefix_path/drone-teleop\n'}
+[5.871983] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/ament_prefix_path.sh\n'}
+[5.872100] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/ament_prefix_path.dsv\n'}
+[5.872306] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/path.sh\n'}
+[5.872406] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/path.dsv\n'}
+[5.872495] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.bash\n'}
+[5.872582] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.sh\n'}
+[5.872791] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.zsh\n'}
+[5.873260] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.dsv\n'}
+[5.873388] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/package.dsv\n'}
+[5.874183] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/ament_index/resource_index/packages/drone-teleop\n'}
+[5.874368] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/cmake/drone-teleopConfig.cmake\n'}
+[5.874465] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/cmake/drone-teleopConfig-version.cmake\n'}
+[5.874559] (drone-teleop) StdoutLine: {'line': b'-- Installing: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/package.xml\n'}
+[5.874660] (drone-teleop) CommandEnded: {'returncode': 0}
+[5.890983] (drone-teleop) JobEnded: {'identifier': 'drone-teleop', 'rc': 0}
+[5.891866] (-) EventReactorShutdown: {}
