@@ -1,0 +1,4 @@
+Invoking command in '/home/el-system/teleop/build/drone-teleop': /usr/bin/cmake --build /home/el-system/teleop/build/drone-teleop -- -j12 -l12
+Invoked command in '/home/el-system/teleop/build/drone-teleop' returned '0': /usr/bin/cmake --build /home/el-system/teleop/build/drone-teleop -- -j12 -l12
+Invoking command in '/home/el-system/teleop/build/drone-teleop': /usr/bin/cmake --install /home/el-system/teleop/build/drone-teleop
+Invoked command in '/home/el-system/teleop/build/drone-teleop' returned '0': /usr/bin/cmake --install /home/el-system/teleop/build/drone-teleop

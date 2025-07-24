@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/el-system/teleop/build/drone-teleop': /usr/bin/cmake --build /home/el-system/teleop/build/drone-teleop -- -j12 -l12
+[0.046s] [100%] Built target control
+[0.054s] Invoked command in '/home/el-system/teleop/build/drone-teleop' returned '0': /usr/bin/cmake --build /home/el-system/teleop/build/drone-teleop -- -j12 -l12
+[0.065s] Invoking command in '/home/el-system/teleop/build/drone-teleop': /usr/bin/cmake --install /home/el-system/teleop/build/drone-teleop
+[0.069s] -- Install configuration: ""
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/lib/drone-teleop/control
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/ament_index/resource_index/package_run_dependencies/drone-teleop
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/ament_index/resource_index/parent_prefix_path/drone-teleop
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/path.sh
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/environment/path.dsv
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.bash
+[0.070s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.sh
+[0.071s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.zsh
+[0.071s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/local_setup.dsv
+[0.071s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/package.dsv
+[0.072s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/ament_index/resource_index/packages/drone-teleop
+[0.072s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/cmake/drone-teleopConfig.cmake
+[0.072s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/cmake/drone-teleopConfig-version.cmake
+[0.072s] -- Up-to-date: /home/el-system/teleop/install/drone-teleop/share/drone-teleop/package.xml
+[0.073s] Invoked command in '/home/el-system/teleop/build/drone-teleop' returned '0': /usr/bin/cmake --install /home/el-system/teleop/build/drone-teleop
