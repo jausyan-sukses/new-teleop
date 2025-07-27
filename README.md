@@ -8,5 +8,5 @@ ros2 run drone-teleop control
 ```
 and run mavros using this command
 ```sh
-ros2 run mavros mavros_node --ros-args --params-file ~/teleop/src/drone-teleop/config/mavros_param.yaml
+ros2 run mavros mavros_node --ros-args --params-file ~/new-teleop/src/drone-teleop/config/mavros_param.yaml
 ```
