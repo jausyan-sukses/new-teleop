@@ -117,7 +117,7 @@ private:
     void takeoffDrone()
     {
         auto takeoff_request = std::make_shared<mavros_msgs::srv::CommandTOL::Request>();
-        takeoff_request->altitude = 3.0; // Takeoff ke 3 meter
+        takeoff_request->altitude = 1.0; // Takeoff ke 3 meter
 
         while (!takeoff_client_->wait_for_service(std::chrono::seconds(2)))
         {
@@ -154,16 +154,16 @@ private:
 
             switch (key)
             {
-            case 'd':
+            case 's':
                 msg.linear.x = 0.5;  // Maju
                 break;
-            case 'a':
+            case 'w':
                 msg.linear.x = -0.5; // Mundur
                 break;
-            case 'w':
+            case 'd':
                 msg.linear.y = 0.5;  // Geser kiri
                 break;
-            case 's':
+            case 'a':
                 msg.linear.y = -0.5; // Geser kanan
                 break;
             case 'q':
@@ -180,6 +180,18 @@ private:
                 break;
             case 'm':
                 setModeGuided(); // Set mode GUIDED
+                break;
+            case 'u':
+                msg.linear.x = -0.1; 
+                break;
+            case 'j':
+                msg.linear.x = 0.1; // Mundur sedikit
+                break;
+            case 'h':
+                msg.linear.y = -0.1; // Geser kiri sedikit
+                break;
+            case 'k':
+                msg.linear.y = 0.1; // Geser kanan sedikit
                 break;
             case 't':
                 armDrone();
